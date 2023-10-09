@@ -1,0 +1,48 @@
+# Отчет по лабораторной работе № 1
+## по курсу "Фундаментальная информатика"
+
+Студент группы <M8O-108Б-23> Sheraliev Sino 
+
+Работа выполнена 
+
+Преподаватель: каф. 806 Севастьянов Виктор Сергеевич
+
+1. **Тема**: Название темы изучение github
+2. **Цель работы**: научится ползоватся github
+3. **Задание (вариант №<номер варианта если есть>)**: #1
+4. **Идея, метод, алгоритм решения задачи**: 1. Завести репозиторий на Github
+2.Создать отдельную папку в репозитории под данную лабораторную работу
+3.В папке создать файл отчета в формате Markdown,
+4.Создать отдельную ветку в репозитории для выполнения задания
+5.В ветке создать коммит, включающий в себя листинг выполненных действий в терминале и отчет в Markdown
+Смержить созданную ветку в ветку main
+5. **Сценарий выполнения работы**: 1 зарегистрировался на github,2 завел репозиторию,3  начал выполнять задание, 4 закончил.
+
+6. **Протокол**: 
+```bash
+sinosheraliev@MacBook-Air-Dilshod laba % git init
+Initialized empty Git repository in /Users/sinosheraliev/Desktop/laba/.git/
+sinosheraliev@MacBook-Air-Dilshod laba % mkdir 1 
+sinosheraliev@MacBook-Air-Dilshod laba % la
+zsh: command not found: la
+sinosheraliev@MacBook-Air-Dilshod laba % ls
+1
+sinosheraliev@MacBook-Air-Dilshod laba % touch 1/report.md
+sinosheraliev@MacBook-Air-Dilshod laba % git remote add origin https://github.com/Sino05/labs.git
+git branch -M main
+git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/Sino05/labs.git'
+sinosheraliev@MacBook-Air-Dilshod laba % git add ,
+fatal: pathspec ',' did not match any files
+sinosheraliev@MacBook-Air-Dilshod laba % git add .
+sinosheraliev@MacBook-Air-Dilshod laba % git commit -m "init"
+[main (root-commit) 539ed09] init
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 1/report.md
+sinosheraliev@MacBook-Air-Dilshod laba % git remote add origin https://github.com/Sino05/labs.git
+git branch -M main
+git push -u origin main                                                                                                
+```
+7. **Замечания автора** отсутствует
+8. **Выводы**: 
