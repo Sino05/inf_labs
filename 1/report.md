@@ -325,7 +325,15 @@ sinosheraliev@MacBook-Air-Dilshod laba % git checkout new-task
 Switched to branch 'new-task'
 sinosheraliev@MacBook-Air-Dilshod laba % git checkout main
 Switched to branch 'main'
-Your branch is up to date with 'origin/main'.                                                                                       
+Your branch is up to date with 'origin/main'.  
+sinosheraliev@MacBook-Air-Dilshod 1 % git branch master1
+sinosheraliev@MacBook-Air-Dilshod 1 % git branch master2
+sinosheraliev@MacBook-Air-Dilshod 1 % git checkout master1
+M	.DS_Store
+Switched to branch 'master1'
+sinosheraliev@MacBook-Air-Dilshod 1 % git merge master2
+Already up to date.
+
 ```
 7. **Замечания автора** отсутствует
 8. **Выводы**: Я научился работать с git.Я научился связывать локольный и удаленный репозитории. Я научился мержить ветки в гите!
